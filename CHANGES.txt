@@ -1,0 +1,32 @@
+tag f5a2bc4bf5bd804eb03f731e0bc9be792e4ee169 v0.11
+Author:	Antoine Pietri <antoine.pietri1@gmail.com>
+Date:	Sun Nov 6 00:35:15 2022 +0100
+
+version 0.11
+-----BEGIN PGP SIGNATURE-----
+
+iQFOBAABCAA4FiEEK3+ITqUhoMLTy00+5HbuHqx0YRkFAmNm8zMaHGFudG9pbmUu
+cGlldHJpMUBnbWFpbC5jb20ACgkQ5HbuHqx0YRnAtwgAiPQNVhQ5GUlpoP6sx2/4
+fyJ69IN1egop9QxPIWJ5Q+FhdZhC4Ie5o8JeA/lTf8MSgSz++X/tAqM/XOdG1thI
+4BHIsy4hxlQcjhhls4jrKxjaVQh3Znr9oL/NPtFA+ixPtch/0HeKbtk82JA5iqJ9
+IA+BAZJJtKXyPhbYslZ2jiMB0WZcS/wgiGWNGyX1YBwSFdFQIp9tBR43Mvxl+54L
+LYaNjMHCryqHexlDGEcMm+7yeHMaRpLWCXa7NusNvp4P6GEgpAqZ6/DpXLqLL3gr
+1DJoVscIFpSLucwMXI8spqGAeGyEtVEzYr8Ri1q84/UfIAYOI2RggZ+daVEuI0ou
+Tw==
+=AT3B
+-----END PGP SIGNATURE-----
+
+commit 41c9c21c80fe7fcfd0b54000370c839b86dbb662
+Author: Antoine Pietri <antoine.pietri1@gmail.com>
+Date:   Sun Nov 6 00:34:35 2022 +0100
+
+    Version 0.0.11
+    
+    Bump API version to 100000
+
+commit e5160cdd5ce11e862948962f1d8c1d47846702a7
+Author: Antoine Pietri <antoine.pietri1@gmail.com>
+Date:   Sun Nov 6 00:32:45 2022 +0100
+
+    10.0 compat, remove XML <Backdrop>
+
