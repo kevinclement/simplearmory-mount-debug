@@ -135,11 +135,23 @@ function SimpleArmory:GetAllMyMountsJSON()
         -- Add to the mount list only if its collected and usable
         -- NOTE: dont use isUsable, as that will filter out stuff like water mounts while
         --       you're on land
+
+        -- if (isCollected) then
+        --     print(id .. ": " .. creatureName)
+        --     print("   isUsable: " .. tostring(isUsable))
+        --     print("   isFactionSpecific: " .. tostring(isFactionSpecific))
+        --     print("   faction: " .. tostring(faction))
+        --     print("   isCollected: " .. tostring(isCollected))
+        --     print("   isSelfMount: " .. tostring(isSelfMount))
+        --     print("   hideOnChar: " .. tostring(hideOnChar))
+        --     print("   mountType: " .. mountTypeID)
+        -- end
+
         if (isCollected and (isFactionSpecific == false or (faction == 1))) then
             local mountObj = {}
             mountObj["id"] = id;
             mountObj["name"] = creatureName;
-            mountList[mountCount] = toJSON(mountObj);
+            mountList[#mountList+1] = toJSON(mountObj);
             mountCount = mountCount + 1;
         end
 
